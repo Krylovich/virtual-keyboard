@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #292929;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto; 
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    border-color: #a1a1a1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+textarea:focus {
+    border-color: #a1a1a1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
