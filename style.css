@@ -1,13 +1,13 @@
 body {
     margin: 0px;
-    background-color: white;
+    background-color: #1b1b1b;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     line-height: 1.4;
-    color: #292929;
+    color: #fff;
 }
 
-form {
+div {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -17,16 +17,107 @@ form {
 
 textarea {
     width: 100%;
+    max-width: 800px;
     height: 200px;
-    border-color: #a1a1a1;
+    border-radius: 10px;
+    border-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea:focus {
+    border-color: #fff;
     border-top: none;
     border-left: none;
     border-right: none;
 }
 
-textarea:focus {
-    border-color: #a1a1a1;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+ul {
+    margin: 30px 0 0;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+}
+
+li {
+    float: left;
+    margin: 0 5px 10px 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #1b1b1b;
+    border: 2px solid #f9f9f9;
+    border-image: 
+    linear-gradient( 
+        to bottom,
+        blue,
+       red
+    ) 1 40%;
+}
+
+.capslock, .tab, .left-shift, .ctrl {
+    clear: left;
+}
+
+.tab {
+    width: 90px;
+}
+
+.delete {
+    width: 60px;
+}
+
+.backspace {
+    width: 156px;
+}
+
+.capslock {
+    width: 100px;
+}
+
+.enter {
+    width: 146px;
+}
+
+.left-shift {
+    width: 106px;
+}
+
+.ctrl {
+    width: 70px;
+}
+
+.right-shift {
+    width: 40px;
+    margin-right: 56px;
+}
+
+.lastitem {
+    margin-right: 0;
+    float: right;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+            
+.space {
+    width: 351px;
+}
+
+.ctrl-right {
+    width: 60px;
+}
+
+.on {
+    display: none;
+}
+
+li:hover {
+    position: relative;
+    top: 1px;
+    left: 1px;
+    border-color: #e5e5e5;
+    cursor: pointer;
 }
